@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color: white;
+    background-color: rgb(141, 112, 25);
+    margin-top: 40px;
+    border: white solid 1px;
+    width: 60%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+}
