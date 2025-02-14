@@ -14,3 +14,27 @@ h1{
     text-align: center;
     padding: 10px;
 }
+
+.om_oss {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+.om_oss a {
+    text-decoration: none; 
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.1s ease-in-out;
+}
+
+.om_oss a:hover {
+    background-color: #a3630a; 
+    color: white;
+    border-radius: 5px;
+}
+
