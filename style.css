@@ -23,7 +23,26 @@ h1{
     padding: 10px;
     background-color: #f8f9fa;
 }
-.om_oss a {
+
+.om_oss button{
+    padding: 10px;
+    width: 100px;
+    background: none;
+    border: none;
+}
+.om_oss button:hover{
+    cursor: pointer;
+    background-color: rgb(141, 112, 25);
+
+}
+
+.btn_a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.om_oss_a{
     text-decoration: none; 
     color: black;
     font-size: 20px;
@@ -32,9 +51,91 @@ h1{
     transition: all 0.1s ease-in-out;
 }
 
-.om_oss a:hover {
+.om_oss_a:hover {
     background-color: #a3630a; 
     color: white;
     border-radius: 5px;
 }
 
+.search_container {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}   
+
+.search_bar {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.search-btn:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+.rea_utrustning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    color: white;
+    background-color: rgb(141, 112, 25);
+    margin-top: 40px;
+    border: white solid 1px;
+    width: 90%;
+    height: 400px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    min-width: 500px
+}
+
+h3{
+    font-size: 30px;
+}
+img{
+    width: 300px;
+    max-width: 300px;
+    min-width: 100px;
+}
+
+
+
+#kundvagn{
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px rgb(141, 112, 25) solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    height: 200px;
+}
+
+.köp_btn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: rgb(141, 112, 25) 2px solid;
+}
+
+.köp_btn:hover{
+    cursor: pointer;
+    filter: brightness(80%);
+}

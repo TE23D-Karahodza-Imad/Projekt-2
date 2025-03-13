@@ -4,16 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
     <title>Projekt 2</title>
 </head>
 <body>
-    <h1> TysonShop Imad</h1>
+    <h1> GoldenShop Imad</h1>
+    
 
     <div class="om_oss">
-        <a href="https://www.youtube.com/shorts/FHGk9djjpbM">Om oss</a>
-        <a href="http://127.0.0.1:5500/index.html">Hem</a>
-        <a href="https://www.kontakta.se/">Kontakta oss</a>
+        <a href="https://www.youtube.com/shorts/FHGk9djjpbM" class="om_oss_a">Om oss</a>
+        <a href="http://127.0.0.1:5500/index.html" class="om_oss_a">Hem</a>
+        <a href="https://www.kontakta.se/" class="om_oss_a">Kontakta oss</a>
+        <button type="button" class="kundvagn_btn" onclick="ShowCart()"><a href="#kundvagn" class="btn_a">Kundvagn</a></button>
     </div>
     
+    <div class="search_container">
+        <input type="text" placeholder="Sök på Webbsidan..." class="search_bar">
+        <button class="search-btn">SÖK</button>
+    </div>
+
+    <div class="rea_utrustning"> 
+        <img src="./img/b4708190-f857-11ef-83da-2fe2e32e5a75.jpg" alt="">
+        <h3> Stor REA på Boxnings Utrustning</h3>
+        <img src="img/GettyImages-2178144131-1728805387.webp" alt="">
+
+
+    </div>
+
+    <div id="kundvagn">
+        <h2>Kundvagn</h2>
+        <button type="button" class="köp_btn">Köp</button>
+    </div>
+
+
+
     </body>
 </html>
