@@ -114,7 +114,61 @@ img{
     min-width: 100px;
 }
 
+.rea_container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    max-width: 1000px;
+}
+.produkt {
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+.produkt img {
+    width: 100%;
+    border-radius: 5px;
+}
+.produkt h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.pris_btn_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pris {
+    font-weight: bold;
+    background: #437c7c;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+.add-to-cart {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.add-to-cart:hover {
+    background: #218838;
+}
 
+.produkt_container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+}
 
 #kundvagn{
     display: none;
@@ -138,4 +192,24 @@ img{
 .köp_btn:hover{
     cursor: pointer;
     filter: brightness(80%);
+}
+
+.sista_container{
+    background: #0a0121;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.highlight {    
+    font-weight: bold;
 }
